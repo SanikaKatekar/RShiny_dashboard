@@ -20,7 +20,7 @@ library(shinythemes)
 library(maps)
 
 #Read csv file
-data <- read.csv('/Users/sanikakatekar/Desktop/Previous_sems/R_dashboard/RShiny_dashboard_git/WHO-COVID-19.csv')
+data <- read.csv('WHO-COVID-19.csv')
 
 #Code for plotting new cases vs. date reported
 data1 <- data %>%
